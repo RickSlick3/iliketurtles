@@ -1,11 +1,8 @@
-from turtle import Turtle
+from gopigo import *
+import time
 
-t = Turtle()
+fwd()
 
-t.shape("triangle")
+time.sleep(5)
 
-for x in range(50):
-    t.forward(50)
-    t.right(50)
-
-input("pres any key to exit")
+stop()
